@@ -1,4 +1,4 @@
-# KeepYourOfficePCalwaysOn
+# KeepYourOfficePCalwaysAlive
 This is a simple python project to keep your PC alive
 
 Pre-Requisites:
