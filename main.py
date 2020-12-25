@@ -8,7 +8,7 @@ try:
         now = datetime.datetime.now()
         print(now)
         tminus9 = now.replace(hour=9, minute=0, second=0, microsecond=0) # 24hr format
-        tminus18 = now.replace(hour=13, minute=0, second=0, microsecond=0) #24hr format
+        tminus18 = now.replace(hour=18, minute=0, second=0, microsecond=0) #24hr format
         if now >= tminus9 and now <=tminus18:
            print('Alive Feature started')
            for i in range(0,3):
@@ -16,7 +16,6 @@ try:
                file1.write('yo yo') 
                file1.close()              
                time.sleep(300)
-               print(i)
         else:
             print(f'Off Working hours:{now}')
             print('\n feature stopped')
